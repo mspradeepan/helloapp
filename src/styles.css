@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+
+.top_buffer {
+    margin-top: 50px;
+}
+
+body {
+font-family: 'Oxygen', sans-serif;
+}
+
+h1 {
+    color: #337ab7;
+}
+
+.icon-home:before {
+  content: "\e900";
+     font-size: 48px;
+     color: #44aadd;
+
+}
+
+.icon-user-plus:before {
+  content: "\e973";
+   font-size: 65px;
+}

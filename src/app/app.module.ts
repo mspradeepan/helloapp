@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { LeadListComponent } from './lead-list/lead-list.component';
+import { LeadFormComponent } from './lead-form/lead-form.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LeadListComponent,
+    LeadFormComponent
   ],
   imports: [
     BrowserModule,
